@@ -62,7 +62,7 @@ public class EloquaConnectorIntegrationTest extends ConnectorIntegrationTestBase
      */
     @BeforeClass(alwaysRun = true)
     public void setEnvironment() throws Exception {
-        init("eloquaStandardAPI-connector-1.0.0");
+        init("eloquaStandardAPI-connector-1.0.1-SNAPSHOT");
         if (System.getProperty("os.name").toLowerCase().contains("windows")) {
             repoLocation = System.getProperty("connector_repo").replace("\\", "/");
         } else {
